@@ -42,7 +42,7 @@ for i=1, UsernamesToCheck do
     end
 end
 
-print("------------| Username Scraper/Checker By Kaeden! |------------")
+print("------------| Username Scraper/Checker By Mufasa Credits To Kaeden |------------")
 for i,v in pairs(Usernames) do
     local link = "https://api.roblox.com/users/get-by-username?username="..v
     result = httpservice.request(link)
